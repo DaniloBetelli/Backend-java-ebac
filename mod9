@@ -1,1 +1,26 @@
+pacote br.com.danilobetelli;
 
+public class Exemplo1 {
+
+    public static void main(String[] args) {
+
+        //Boxe
+        estado booleano = verdadeiro;
+        Boolean status1 = Boolean.TRUE;
+
+        Caractere c = 'A';
+
+        Idade inteira = 10;
+
+        CPF longo = 12432433l;
+        Longo cpf1 = Long.valueOf(21324433);
+
+        //unboxing
+        boolean status2 = Boolean.TRUE;
+        char letra = Character.valueOf('A');
+
+        int idade2 = Integer.valueOf(12);
+
+        longo cpf3 = Long.valueOf(123456);
+    }
+}
