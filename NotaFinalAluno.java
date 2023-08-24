@@ -7,7 +7,7 @@ public class NotaFinalAluno {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Vamos lá? ");
+        System.out.println("Vamos ver o que vai contecer? ");
         System.out.print("Digite a primeira nota: ");
         double primeiraNota = s.nextDouble();
         System.out.print("Digite a segunda nota: ");
@@ -18,13 +18,13 @@ public class NotaFinalAluno {
         double quartaNota = s.nextDouble();
 
         double notaFinal = calcNotaFinal(primeiraNota, segundaNota, terceiraNota, quartaNota);
-        System.out.println("Sua nota final é: " + notaFinalAluno);
+        System.out.println("Sua nota final é: " + notaFinal);
 
-        if (notaFinal >= 7 && notaFinalAluno <= 10) {
+        if (notaFinal >= 7 && notaFinal <= 10) {
             System.out.println("Aprovado!");
-        } else if (notaFinal >= 5 && notaFinalAluno < 7) {
+        } else if (notaFinal >= 5 && notaFinal < 7) {
             System.out.println("Recuperação!");
-        } else if (notaFinal >= 0 && notaFinalAluno < 5) {
+        } else if (notaFinal >= 0 && notaFinal < 5) {
             System.out.println("Não aprovado.");
         } else {
             System.out.println("Nota inválida!");
